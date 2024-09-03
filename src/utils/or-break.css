@@ -1,0 +1,25 @@
+.line-break{
+  position: relative;
+}
+
+.line{
+  background-color: #a8a7a7;
+  height: 1px;
+}
+
+.or-text{
+  position: absolute;
+  font-family: 'Product Sans';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #5F5F5F;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  left: 130px;
+  top:-8px;
+
+}

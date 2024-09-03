@@ -1,0 +1,17 @@
+ .sign-up-btn{
+  width: 330px;
+  height: 51px;
+}
+.sign-up-google {
+  width: 267px;
+  height: 53px;
+}
+
+.sign-up-text{
+  font-family: Product Sans ;
+  font-size: 30px;
+  font-weight: 900;
+}
+.first-name{
+  margin-top: 20px;
+}
