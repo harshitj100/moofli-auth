@@ -380,10 +380,14 @@
     padding: 4px;
   }
 
-  .rank-element, .rank,
-  .question-solved-element,.question-solved,
-  .finish-time-element,.finish-time,
-  .points-element ,.points {
+  .rank-element,
+  .rank,
+  .question-solved-element,
+  .question-solved,
+  .finish-time-element,
+  .finish-time,
+  .points-element,
+  .points {
     font-size: 14px;
   }
 
@@ -463,10 +467,14 @@
     padding: 3px;
   }
 
-  .rank-element, .rank,
-  .question-solved-element, .question-solved,
-  .finish-time-element, .finish-time,
-  .points-element, .points {
+  .rank-element,
+  .rank,
+  .question-solved-element,
+  .question-solved,
+  .finish-time-element,
+  .finish-time,
+  .points-element,
+  .points {
     font-size: 13px;
   }
 
@@ -546,10 +554,14 @@
     padding: 3px;
   }
 
-  .rank-element, .rank,
-  .question-solved-element, .question-solved,
-  .finish-time-element, .finish-time,
-  .points-element, .points {
+  .rank-element,
+  .rank,
+  .question-solved-element,
+  .question-solved,
+  .finish-time-element,
+  .finish-time,
+  .points-element,
+  .points {
     font-size: 12px;
   }
 
@@ -629,10 +641,14 @@
     padding: 2px;
   }
 
-  .rank-element, .rank,
-  .question-solved-element, .question-solved,
-  .finish-time-element, .finish-time,
-  .points-element, .points {
+  .rank-element,
+  .rank,
+  .question-solved-element,
+  .question-solved,
+  .finish-time-element,
+  .finish-time,
+  .points-element,
+  .points {
     font-size: 11px;
   }
 
@@ -662,76 +678,93 @@
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 420px) {
 
   .cryptic-heading {
-    font-size: 14px;
+    font-size: 18px;
+    text-align: center;
   }
 
   .top-teams {
-    font-size: 30px;
+    font-size: 50px;
+  }
+
+  .winners {
+    display: flex;
+    flex-direction: column;
   }
 
   .container {
-    width: 140px;
-    padding: 3px;
+    width: 280px;
+    height: 80px;
   }
 
   .team-leader {
-    font-size: 5px;
+    font-size: 10px;
   }
 
   .team-leader-name {
-    font-size: 8px;
+    font-size: 20px;
   }
 
   .team-pts-heading {
-    font-size: 7px;
+    font-size: 15px;
   }
 
   .team-pts-num {
-    font-size: 6px;
-    padding: 1px 4px;
+    font-size: 16px;
+    padding: 4px 10px;
   }
 
   .position-image {
-    width: 15px;
-    height: 28px;
+    width: 35px;
+    height: 64px;
+  }
+
+  .team-leader-image-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
   }
 
   .team-leader-image {
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
   }
 
   .complete-leader-board-elements {
-    grid-template-columns: 25px 130px 50px 70px 30px;
+    grid-template-columns: 30px 100px 80px 100px 50px;
     align-items: center;
-    width: 280px;
-    margin-bottom: 2px;
-    padding: 1px;
+    width: 390px;
+    margin-bottom: 3px;
+    padding: 2px;
   }
 
-  .rank-element, .rank,
-  .question-solved-element, .question-solved,
-  .finish-time-element, .finish-time,
-  .points-element, .points {
-    font-size: 8px;
+  .rank-element,
+  .rank,
+  .question-solved-element,
+  .question-solved,
+  .finish-time-element,
+  .finish-time,
+  .points-element,
+  .points {
+    font-size: 16px;
   }
 
   .team-name-element {
-    font-size: 8px;
+    font-size: 16px;
   }
 
   .user-2 {
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
   }
 
   .complete-leader-board-heading {
     font-size: 10px;
-    width: 280px;
-    grid-template-columns: 25px 130px 50px 70px 30px;
+    width: 300px;
+    grid-template-columns: 30px 100px 80px 100px 50px;
     align-items: center;
     margin-bottom: 1px;
   }
@@ -741,8 +774,168 @@
   }
 
   .line-image {
-    width: 240px;
+    width: 340px;
+
+  }
+
+  .team-name {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .rank {
+    font-size: 12px;
   }
 }
 
+@media (max-width: 360px) {
+  .cryptic-heading {
+    font-size: 16px;
+  }
 
+  .top-teams {
+    font-size: 45px;
+  }
+
+  .container {
+    width: 260px;
+    height: 75px;
+  }
+
+  .team-leader-name {
+    font-size: 18px;
+  }
+
+  .team-pts-heading {
+    font-size: 14px;
+  }
+
+  .team-pts-num {
+    font-size: 15px;
+    padding: 3px 8px;
+  }
+
+  .position-image {
+    width: 32px;
+    height: 60px;
+  }
+
+  .team-leader-image {
+    width: 42px;
+    height: 42px;
+  }
+
+  .complete-leader-board-elements {
+    grid-template-columns: 25px 90px 75px 90px 45px;
+    width: 350px;
+    margin-left: 20px;
+  }
+
+  .rank-element,
+  .rank,
+  .question-solved-element,
+  .question-solved,
+  .finish-time-element,
+  .finish-time,
+  .points-element,
+  .points,
+  .team-name-element {
+    font-size: 14px;
+  }
+
+  .user-2 {
+    width: 22px;
+    height: 22px;
+  }
+
+  .complete-leader-board-heading {
+    font-size: 9px;
+    width: 280px;
+    margin-left: 20px;
+    line-height: 16px;
+    grid-template-columns: 25px 90px 75px 90px 45px;
+  }
+
+  .line-image {
+    width: 320px;
+  }
+
+  .team-name {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  .cryptic-heading {
+    font-size: 14px;
+  }
+
+  .top-teams {
+    font-size: 40px;
+  }
+
+  .container {
+    width: 240px;
+    height: 70px;
+  }
+
+  .team-leader-name {
+    font-size: 16px;
+  }
+
+  .team-pts-heading {
+    font-size: 13px;
+  }
+
+  .team-pts-num {
+    font-size: 14px;
+    padding: 2px 6px;
+  }
+
+  .position-image {
+    width: 30px;
+    height: 56px;
+  }
+
+  .team-leader-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .complete-leader-board-elements {
+    grid-template-columns: 20px 80px 70px 80px 40px;
+    width: 300px;
+  }
+
+  .rank-element,
+  .rank,
+  .question-solved-element,
+  .question-solved,
+  .finish-time-element,
+  .finish-time,
+  .points-element,
+  .points,
+  .team-name-element {
+    font-size: 12px;
+  }
+
+  .user-2 {
+    width: 20px;
+    height: 20px;
+  }
+
+  .complete-leader-board-heading {
+    font-size: 8px;
+    line-height: 12px;
+    width: 260px;
+    grid-template-columns: 20px 80px 70px 80px 40px;
+  }
+
+  .line-image {
+    width: 280px;
+  }
+
+  .team-name {
+    font-size: 12px;
+  }
+}

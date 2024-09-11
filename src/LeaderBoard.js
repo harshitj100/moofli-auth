@@ -48,20 +48,20 @@ const LeaderBoard = () => {
   }]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const fetchTeams = async () => {
-      try {
-        const response = await axios.get('/api/teams'); 
-        setTeams(response.data.teams);
-        setLoading(false);
-      } catch (error) {
-        console.error("Error fetching teams data:", error);
-        setLoading(false);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchTeams = async () => {
+  //     try {
+  //       const response = await axios.get('/api/teams'); 
+  //       setTeams(response.data.teams);
+  //       setLoading(false);
+  //     } catch (error) {
+  //       console.error("Error fetching teams data:", error);
+  //       setLoading(false);
+  //     }
+  //   };
 
-    fetchTeams();
-  }, []);
+  //   fetchTeams();
+  // }, []);
 
 
   // teamName: "Some Team Name",
